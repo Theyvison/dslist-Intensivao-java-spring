@@ -1,7 +1,6 @@
 package com.theyvison.dslist.controllers;
 
 import com.theyvison.dslist.dto.GameMinDTO;
-import com.theyvison.dslist.entities.Game;
 import com.theyvison.dslist.services.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
