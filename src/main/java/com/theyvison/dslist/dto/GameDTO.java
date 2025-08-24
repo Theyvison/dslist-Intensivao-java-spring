@@ -20,6 +20,7 @@ public class GameDTO {
     public GameDTO(Game entity) {
         BeanUtils.copyProperties(entity, this);
         // copia todas as propriedades de entity (game) para this (gameDTO)
+        // usando beanUtils é necessário ter os getters e setters
     }
 
     public Long getId() {
